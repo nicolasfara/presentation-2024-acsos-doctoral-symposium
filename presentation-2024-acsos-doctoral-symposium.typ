@@ -5,13 +5,14 @@
 
 #show: metropolis-theme.with(
   aspect-ratio: "16-9",
-  footer: [Optional Footnote]
+  // footer: [Optional Footnote]
 )
 
 #set text(font: "Fira Sans", weight: 350, size: 20pt)
 #show math.equation: set text(font: "Fira Math")
 #set strong(delta: 200)
 #set par(justify: true)
+#set list(spacing: 1.9em)
 
 #set quote(block: true)
 #show quote: set align(left)
@@ -25,7 +26,7 @@
   width: 100%,
 )
 
-#show bibliography: set text(size: 0.8em)
+#show bibliography: set text(size: 0.75em)
 #show footnote.entry: it => {
   block(inset: (x: 2em, y: 0.1em))[#text(size: 0.75em)[#it.note.body]]
 }
@@ -34,20 +35,23 @@
   footnote(cite(form: "full", label(clabel)))
 }
 
+#let mail(email) = {
+  text(size: 1.3em)[#raw(email)]
+}
+
 #let author = block(inset: 0.1em)[
   #table(inset: 0.5em, stroke: none, columns: (auto, 4fr),  align: (left, left),
-    [#alert[*Author 1*]], [`author1@mail.com`],
-    [Author 2], [`author2@mail.com`],
-    [Author 3], [`author3@mail.com`],
+    [#alert[*Nicolas Farabegoli*]], [#mail("nicolas.farabegoli@unibo.it")],
+    [#text(size: 0.9em)[Supervisor]], [#text(size: 0.9em)[Prof. Mirko Viroli]],
   )
-  #place(right, dy:-1.5em)[
+  #place(right)[
     #figure(image("images/disi.svg", width:40%))
   ]
 ]
 
 #title-slide(
-  title: "Slide Title",
-  subtitle: "Subtitle",
+  title: "Intelligent Pulverised Collective-adaptive Systems",
+  // subtitle: "Subtitle",
   author: author,
   // date: datetime.today().display("[day] [month repr:long] [year]"),
 )
