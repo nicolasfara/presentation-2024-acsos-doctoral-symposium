@@ -56,48 +56,54 @@
   // date: datetime.today().display("[day] [month repr:long] [year]"),
 )
 
-#new-section-slide("Slide section 1")
+#new-section-slide("Motivation and Challenges")
 
-#slide(title: "Slide")[
-  *Bold* and _italic_ text.
-  
-  This is a citiation @nicolas_farabegoli_2024_10535841.
+#slide(title: "Edge-cloud Continuum")[
 
-  #alert[
-    This is an alert.
-  ]
 ]
 
-#slide(title: "Code slide")[
-  ```kotlin
-  fun main() {
-      println("Hello, world!")
-
-      for (i in 0..9) {
-          println(i)
-      }
-      println("Goodbye, world!")
-  }
-  ```
+#slide(title: "Collective-adaptive Systems")[
 ]
 
-#slide[
-  = This is a title
+#slide(title: "Pulverisation and Macro-program partitioning")[
 
-  #lorem(24)
-
-  == This is a subtitle
-
-  #lorem(34)
 ]
 
-#slide[
+#new-section-slide("Contribution and Objectives")
 
-  == Icon in a title #fa-java()
+#slide(title: "Pulverised systems characteristics")[
 
-  #fa-icon("github", fa-set: "Brands") -- Github icon
+]
 
-  #fa-icon("github", fa-set: "Brands", fill: blue) -- Github icon blue fill
+#slide(title: "MARL + GNN")[
+
+]
+
+#new-section-slide("Methodology and Preliminary Results")
+
+#slide(title: "Reconfiguration")[
+
+]
+
+#slide(title: "Communication")[
+]
+
+#slide(title: "Scheduling")[
+
+]
+
+#new-section-slide("Future Work and Research Plan")
+
+#slide(title: "Step 1")[
+
+]
+
+#slide(title: "Step 2")[
+
+]
+
+#slide(title: "Step 3")[
+
 ]
 
 #slide[
