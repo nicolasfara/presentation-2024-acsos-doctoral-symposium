@@ -39,7 +39,7 @@
   text(size: 1.3em)[#raw(email)]
 }
 
-#let author = block(inset: 0.1em)[
+#let author = block(inset: 0.1em)[s 
   #table(inset: 0.5em, stroke: none, columns: (auto, 4fr),  align: (left, left),
     [#alert[*Nicolas Farabegoli*]], [#mail("nicolas.farabegoli@unibo.it")],
     [#text(size: 0.9em)[Supervisor]], [#text(size: 0.9em)[Prof. Mirko Viroli]],
@@ -59,10 +59,33 @@
 #new-section-slide("Motivation and Challenges")
 
 #slide(title: "Edge-cloud Continuum")[
+  #side-by-side(columns: (2fr, auto), gutter: 2em)[
+    #quote[Aggregation of #alert[computational resources] along the data path from the *edge* to the *cloud* #fcite("DBLP:journals/access/MoreschiniPLNHT22")]
 
+    #v(1em)
+
+    We must deal with different #alert[capabilities] and #alert[constraints]:
+    - edge devices for #underline[sense/acting], but *resources-constrained*
+    - cloud instances for #underline[scalability], but *latency/privacy* issues
+  ][
+    #figure(image("images/edge-cloud-continuum.svg", height: 80%))
+  ]
 ]
 
 #slide(title: "Collective-adaptive Systems")[
+  *Collective-adaptive Systems* #fcite("DBLP:conf/birthday/BucchiaroneM19") refers to systems with a _large number_ of entities interacting with each other in pursuing a #alert[collective] goal without a central coordinator.
+
+  #v(1em)
+  
+  Actual _behaviour_ arises as an #alert[emergent] property of the system.
+
+  #side-by-side[
+    #figure(image("images/swarms.jpg", width: 75%))
+  ][
+    #figure(image("images/pedastrian.png", width: 100%))
+  ][
+    #figure(image("images/coldplay.jpg", width: 88%))
+  ]
 ]
 
 #slide(title: "Pulverisation and Macro-program partitioning")[
