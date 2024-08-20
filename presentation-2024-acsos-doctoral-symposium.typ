@@ -39,7 +39,7 @@
   text(size: 1.3em)[#raw(email)]
 }
 
-#let author = block(inset: 0.1em)[s 
+#let author = block(inset: 0.1em)[
   #table(inset: 0.5em, stroke: none, columns: (auto, 4fr),  align: (left, left),
     [#alert[*Nicolas Farabegoli*]], [#mail("nicolas.farabegoli@unibo.it")],
     [#text(size: 0.9em)[Supervisor]], [#text(size: 0.9em)[Prof. Mirko Viroli]],
