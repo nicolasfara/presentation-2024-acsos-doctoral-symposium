@@ -51,7 +51,7 @@
 
 #title-slide(
   title: "Intelligent Pulverised Collective-adaptive Systems",
-  subtitle: [Docotoral Symposium \@ ACSOS 2024],
+  subtitle: [Doctoral Symposium \@ ACSOS 2024],
   author: author,
   // date: datetime.today().display("[day] [month repr:long] [year]"),
 )
