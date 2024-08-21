@@ -110,25 +110,57 @@
 
 #slide(title: "Pulverisation and Macro-program partitioning")[
   #side-by-side(columns: (1fr, 1fr))[
-    == Pulverisation
-    #figure(image("images/pulverisation.svg", height: 60%))
+    *Pulverisation* #fcite("FARABEGOLI2024545")
+    #figure(image("images/pulverisation.svg", height: 49%))
+    
   ][
-    == Macro-program partitioning
-    #figure(image("images/collective-local-components.svg", height: 60%))
+    *Macro-program partitioning*
+    #figure(image("images/collective-local-components.svg", height: 49%))
   ]
-  How can we manage the components' #alert[reconfiguration] to cope with the *ECC*?
-
+  How can we manage the components' #alert[reconfiguration] to cope with the *ECC*? \
   How can we improve #alert[non-functional] properties like *latency* and *consumption*?
 ]
 
 #new-section-slide("Contribution and Objectives")
 
 #slide(title: "Pulverised systems characteristics")[
+  A *pulverised system* is composed of #underline[several entities] forming a #alert[dynamic graph]:
 
+  - *large scale*: thousands of devices
+  - *locality*: edge devices are spatially distributed
+  - *partial observability*: devices perceive only neighbours
+  - *heterogeneity*: resources of the #underline[ECC] have varying capabilities and constraints
+
+  Standard supervised learning techniques may #underline[not suitable] for dealing with the characteristic elements of the ECC: *difficult* to determine the correct behaviour #alert[a priori].
 ]
 
-#slide(title: "MARL + GNN")[
+#slide(title: "AC + MARL + GNN")[
+  // We envision a combination of:
 
+  #side-by-side(columns: (1fr, 1fr, 1fr), gutter: 2em)[
+    *MARL* #fcite("DBLP:journals/corr/abs-2209-03859")
+
+    for encoding #alert[large-scale] \
+    system dynamics.
+  ][
+    *GNN* #fcite("DBLP:journals/tnn/WuPCLZY21")
+
+    for encoding device \
+    #alert[spatial relationships].
+  ][
+    *AC*
+
+    encoding #alert[collective] \
+    nature of the system.
+  ]
+
+  #v(0em)
+
+  #figure(image("images/ac-gnn-marl.svg", height: 37%))
+]
+
+#slide(title: "Proposed approach")[
+  #figure(image("images/marl-gnn-algorithm.svg"))
 ]
 
 #new-section-slide("Methodology and Preliminary Results")
