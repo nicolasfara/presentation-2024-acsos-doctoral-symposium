@@ -111,11 +111,14 @@
 #slide(title: "Pulverisation and Macro-program partitioning")[
   #side-by-side(columns: (1fr, 1fr))[
     == Pulverisation
-    #figure(image("images/pulverisation.svg", height: 80%))
+    #figure(image("images/pulverisation.svg", height: 60%))
   ][
     == Macro-program partitioning
-    #figure(image("images/collective-local-components.svg", height: 80%))
+    #figure(image("images/collective-local-components.svg", height: 60%))
   ]
+  How can we manage the components' #alert[reconfiguration] to cope with the *ECC*?
+
+  How can we improve #alert[non-functional] properties like *latency* and *consumption*?
 ]
 
 #new-section-slide("Contribution and Objectives")
