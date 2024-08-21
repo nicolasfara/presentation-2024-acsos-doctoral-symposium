@@ -51,26 +51,12 @@
 
 #title-slide(
   title: "Intelligent Pulverised Collective-adaptive Systems",
-  // subtitle: "Subtitle",
+  subtitle: [Docotoral Symposium \@ ACSOS 2024],
   author: author,
   // date: datetime.today().display("[day] [month repr:long] [year]"),
 )
 
 #new-section-slide("Motivation and Challenges")
-
-#slide(title: "Edge-cloud Continuum")[
-  #side-by-side(columns: (2fr, auto), gutter: 2em)[
-    #quote[Aggregation of #alert[computational resources] along the data path from the *edge* to the *cloud* #fcite("DBLP:journals/access/MoreschiniPLNHT22")]
-
-    #v(1em)
-
-    We must deal with different #alert[capabilities] and #alert[constraints]:
-    - edge devices for #underline[sense/acting], but *resources-constrained*
-    - cloud instances for #underline[scalability], but *latency/privacy* issues
-  ][
-    #figure(image("images/edge-cloud-continuum.svg", height: 80%))
-  ]
-]
 
 #slide(title: "Collective-adaptive Systems")[
   *Collective-adaptive Systems* #fcite("DBLP:conf/birthday/BucchiaroneM19") refers to systems with a _large number_ of entities interacting with each other in pursuing a #alert[collective] goal without a central coordinator.
@@ -88,8 +74,48 @@
   ]
 ]
 
-#slide(title: "Pulverisation and Macro-program partitioning")[
+#slide(title: "Aggregate computing")[
+  #underline[Aggregate computing] #fcite("DBLP:journals/computer/BealPV15") as a way to *engineer* #alert[collective-adaptive systems].
 
+  #place(right, dx: -12.2em)[
+    #line(start: (0em, 0em), end: (0em, 60%), stroke: 0.05em + rgb("#23373b"))
+  ]
+
+  #v(1em)
+
+  #side-by-side(columns: (2fr, auto), gutter: 2em)[
+    #figure(image("images/ac.svg"))
+  ][
+    #figure(image("images/channel.svg", height: 45%))
+  ]
+
+  #v(0.3em)
+
+  #align(center)[Typical deployments assume that all the devices *can* execute the program.]
+]
+
+#slide(title: "Edge-cloud Continuum")[
+  #side-by-side(columns: (2fr, auto), gutter: 2em)[
+    #quote[Aggregation of #alert[computational resources] along the data path from the *edge* to the *cloud* #fcite("DBLP:journals/access/MoreschiniPLNHT22")]
+
+    #v(1em)
+
+    We must deal with different #alert[capabilities] and #alert[constraints]:
+    - edge devices for #underline[sense/acting], but *resources-constrained*
+    - cloud instances for #underline[scalability], but *latency/privacy* issues
+  ][
+    #figure(image("images/edge-cloud-continuum.svg", height: 80%))
+  ]
+]
+
+#slide(title: "Pulverisation and Macro-program partitioning")[
+  #side-by-side(columns: (1fr, 1fr))[
+    == Pulverisation
+    #figure(image("images/pulverisation.svg", height: 80%))
+  ][
+    == Macro-program partitioning
+    #figure(image("images/collective-local-components.svg", height: 80%))
+  ]
 ]
 
 #new-section-slide("Contribution and Objectives")
