@@ -154,8 +154,6 @@
     nature of the system.
   ]
 
-  #v(0em)
-
   #figure(image("images/ac-gnn-marl.svg", height: 37%))
 ]
 
@@ -166,14 +164,28 @@
 #new-section-slide("Methodology and Preliminary Results")
 
 #slide(title: "Reconfiguration")[
+  #side-by-side(columns: (2fr, auto))[
 
+  ][
+    #figure(image("images/offloading-surrogate.svg"))
+  ]
 ]
 
 #slide(title: "Communication")[
+
+  #side-by-side(columns: (2fr, auto))[
+
+  ][
+    #figure(image("images/communication.svg"))
+  ]
 ]
 
 #slide(title: "Scheduling")[
+  #side-by-side(columns: (2fr, auto))[
 
+  ][
+    #figure(image("images/scheduling.svg"))
+  ]
 ]
 
 #new-section-slide("Future Work and Research Plan")
