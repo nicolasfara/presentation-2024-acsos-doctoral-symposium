@@ -26,6 +26,7 @@
   width: 100%,
 )
 
+#show bibliography: none
 #show bibliography: set text(size: 0.75em)
 #show footnote.entry: it => {
   block(inset: (x: 2em, y: 0.1em))[#text(size: 0.75em)[#it.note.body]]
@@ -164,17 +165,28 @@
 #new-section-slide("Methodology and Preliminary Results")
 
 #slide(title: "Reconfiguration")[
-  #side-by-side(columns: (2fr, auto))[
+  #side-by-side(columns: (2fr, auto), gutter: 2em)[
+    Dynamic components' relocation to improve the system's #alert[performance].
 
+    - Difficult to determine the #alert[placement] #alert[a priori]
+    - Pre-defined #alert[rules] cannot adapt to changing conditions (ECC)
+
+    #alert[MARL] and #alert[GNN] can leverage *neighbours* information to determine the best #alert[placement], and allowing the definition of #alert[new once].
   ][
     #figure(image("images/offloading-surrogate.svg"))
   ]
 ]
 
 #slide(title: "Communication")[
+  #side-by-side(columns: (2fr, auto), gutter: 2em)[
+    In distributed #underline[collective] systems #alert[communication] & #alert[coordination] are essential to achieve a #underline[global goal].
 
-  #side-by-side(columns: (2fr, auto))[
+    #alert[MARL] and #alert[GNN] can help to:
+    - reduce the *amount of information* exchanged
+    - optimising the *message frequency*, and 
+    - selecting the *appropriate neighbours*
 
+    This can *minimise* the #alert[bandwidth] and #alert[power] consumption.
   ][
     #figure(image("images/communication.svg"))
   ]
@@ -182,7 +194,11 @@
 
 #slide(title: "Scheduling")[
   #side-by-side(columns: (2fr, auto))[
+    *Pulverised systems* lack pre-defined policy for computing a new #alert[device state].
 
+    Depending on the deployment consitions, #alert[different] scheduling policies can be used to #alert[reduce] power consumption.
+
+    #alert[MARL] and #alert[GNN] can help to determine more sophisticated #alert[scheduling policies].
   ][
     #figure(image("images/scheduling.svg"))
   ]
@@ -190,18 +206,16 @@
 
 #new-section-slide("Future Work and Research Plan")
 
-#slide(title: "Step 1")[
+#slide(title: "Future directions in 3 steps")[
 
+  1. #alert[Enhance] and #alert[extend] the macro-program partitioning model to accomodate *constraints* and *capabilities* fo the different components
+  2. Integrate #alert[MARL] and #alert[GNN] in the pulverisation model completing the *toolchain*, and evaluate the effectiveness of the approach in scenarios like #alert[smart cities], #alert[IoT], etc.
+  3. Investigate *continual learning* techniques to adapt the system to #alert[changing] conditions and #alert[requirements]. 
 ]
 
-#slide(title: "Step 2")[
+#focus-slide[
+  Thank you for your attention!
 
-]
-
-#slide(title: "Step 3")[
-
-]
-
-#slide[
+  // keep the bib at the end
   #bibliography("bibliography.bib")
 ]
