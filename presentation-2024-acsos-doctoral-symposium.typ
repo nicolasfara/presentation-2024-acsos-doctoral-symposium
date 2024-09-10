@@ -159,7 +159,7 @@
 ]
 
 #slide(title: "Proposed approach")[
-  #figure(image("images/marl-gnn-algorithm.svg"))
+  #figure(image("images/marl-gnn-algorithm-2.svg"))
 ]
 
 #new-section-slide("Methodology and Preliminary Results")
