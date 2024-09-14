@@ -111,15 +111,33 @@
 
 #slide(title: "Pulverisation and Macro-program partitioning")[
   #side-by-side(columns: (1fr, 1fr))[
-    *Pulverisation* #fcite("FARABEGOLI2024545")
+    #align(center)[*Pulverisation* #fcite("FARABEGOLI2024545")]
     #figure(image("images/pulverisation.svg", height: 49%))
     
   ][
-    *Macro-program partitioning*
+    #align(center)[*Macro-program partitioning*]
     #figure(image("images/collective-local-components.svg", height: 49%))
   ]
   How can we manage the components' #alert[reconfiguration] to cope with the *ECC*? \
   How can we improve #alert[non-functional] properties like *latency* and *consumption*?
+]
+
+#slide(title: "Research objectives")[
+  == Research question
+
+  #quote[
+    How can we manage the runtime execution and deployment of *pulverised* systems
+    when dealing with #alert[unpredictable] and #alert[changing] conditions of the #alert[ECC]?
+  ]
+
+  #v(0.5em)
+
+  == Scenarios
+
+  / Disaster Management: In such scenarios, where conditions change rapidly, the system could #alert[adapt to unpredictable] and #alert[evolving environments] (e.g., shifting areas of priority for rescue operations).
+
+  / Adaptive Traffic Management: A city's traffic light system #alert[dynamically adjusts] based on real-time data from sensors monitoring traffic flow, accidents, or events.
+
 ]
 
 #new-section-slide("Contribution and Objectives")
@@ -131,13 +149,6 @@
   - *locality*: edge devices are spatially distributed
   - *partial observability*: devices perceive only neighbours
   - *heterogeneity*: resources of the #underline[ECC] have varying capabilities and constraints
-
-  === Research question
-
-  #quote[
-    How can we manage the runtime execution of *pulverised* systems
-    when dealing with the #alert[unpredictable] and #alert[changing] conditions of the #alert[ECC]?
-  ]
 
   // Standard supervised learning techniques may #underline[not suitable] for dealing with the characteristic elements of the ECC: *difficult* to determine the correct behaviour #alert[a priori].
 ]
