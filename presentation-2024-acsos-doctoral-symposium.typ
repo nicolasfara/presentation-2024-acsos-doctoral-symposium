@@ -132,7 +132,14 @@
   - *partial observability*: devices perceive only neighbours
   - *heterogeneity*: resources of the #underline[ECC] have varying capabilities and constraints
 
-  Standard supervised learning techniques may #underline[not suitable] for dealing with the characteristic elements of the ECC: *difficult* to determine the correct behaviour #alert[a priori].
+  === Research question
+
+  #quote[
+    How can we manage the runtime execution of *pulverised* systems
+    when dealing with the #alert[unpredictable] and #alert[changing] conditions of the #alert[ECC]?
+  ]
+
+  // Standard supervised learning techniques may #underline[not suitable] for dealing with the characteristic elements of the ECC: *difficult* to determine the correct behaviour #alert[a priori].
 ]
 
 #slide(title: "AC + MARL + GNN")[
@@ -144,18 +151,18 @@
     for encoding #alert[large-scale] \
     system dynamics.
   ][
-    *GNN* #fcite("DBLP:journals/tnn/WuPCLZY21")
+    *Graph Neural Network* #fcite("DBLP:journals/tnn/WuPCLZY21")
 
     for encoding device \
     #alert[spatial relationships].
   ][
-    *AC*
+    *Aggregate Computing*
 
-    encoding #alert[collective] \
+    encoding the #alert[collective] \
     nature of the system.
   ]
 
-  #figure(image("images/ac-gnn-marl.svg", height: 37%))
+  // #figure(image("images/ac-gnn-marl.svg", height: 30%))
 ]
 
 #slide(title: "Proposed approach")[
