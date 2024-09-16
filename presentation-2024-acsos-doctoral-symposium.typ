@@ -157,20 +157,20 @@
   // We envision a combination of:
 
   #side-by-side(columns: (1fr, 1fr, 1fr), gutter: 2em)[
-    *MARL* #fcite("DBLP:journals/corr/abs-2209-03859")
+    *Aggregate Computing*
 
-    for encoding #alert[large-scale] \
-    system dynamics.
+    encoding the #alert[collective] \
+    nature of the system.
   ][
     *Graph Neural Network* #fcite("DBLP:journals/tnn/WuPCLZY21")
 
     for encoding device \
     #alert[spatial relationships].
   ][
-    *Aggregate Computing*
+    *MARL* #fcite("DBLP:journals/corr/abs-2209-03859")
 
-    encoding the #alert[collective] \
-    nature of the system.
+    for encoding #alert[large-scale] \
+    system dynamics.
   ]
 
   // #figure(image("images/ac-gnn-marl.svg", height: 30%))
