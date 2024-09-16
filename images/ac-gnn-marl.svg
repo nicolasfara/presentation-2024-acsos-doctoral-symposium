@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="71.25457mm"
-   height="50.834023mm"
-   viewBox="0 0 71.254573 50.834023"
+   width="90.641548mm"
+   height="77.561134mm"
+   viewBox="0 0 90.641552 77.561135"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.6613495"
-     inkscape:cx="-18.96049"
-     inkscape:cy="22.872971"
+     inkscape:zoom="1.5306247"
+     inkscape:cx="-0.65332803"
+     inkscape:cy="143.73217"
      inkscape:window-width="1920"
      inkscape:window-height="1128"
      inkscape:window-x="0"
@@ -56,76 +56,57 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-65.029263,-35.536325)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#8bb3fc;stroke-width:0.325001"
-       x="69.599274"
-       y="39.696278"
-       id="text1"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.325"
-         x="69.599274"
-         y="39.696278">Aggregate Computing</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.325001"
-       x="64.684952"
-       y="86.313904"
-       id="text2"><tspan
-         sodipodi:role="line"
-         id="tspan2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.325"
-         x="64.684952"
-         y="86.313904">GNN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.325001"
-       x="121.23012"
-       y="86.284271"
-       id="text3"><tspan
-         sodipodi:role="line"
-         id="tspan3"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.325"
-         x="121.23012"
-         y="86.284271">MARL</tspan></text>
+     transform="translate(-142.1132,-17.420196)">
+    <circle
+       style="fill:none;stroke:#23373b;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="188.80632"
+       cy="63.849308"
+       r="29.464102" />
     <path
-       sodipodi:type="star"
-       style="fill:none;fill-opacity:1;stroke:#23373b;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-       id="path3"
-       inkscape:flatsided="false"
-       sodipodi:sides="3"
-       sodipodi:cx="100.19508"
-       sodipodi:cy="51.056793"
-       sodipodi:r1="23.10383"
-       sodipodi:r2="11.551915"
-       sodipodi:arg1="-1.5707963"
-       sodipodi:arg2="-0.52359878"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="m 100.19508,27.952963 10.00426,17.327873 10.00425,17.327873 -20.00851,-10e-7 -20.008501,0 10.004253,-17.327872 z"
-       inkscape:transform-center-x="1.2623002e-06"
-       inkscape:transform-center-y="-5.775958"
-       transform="translate(-1.360422,16.531514)"
-       inkscape:path-effect="#path-effect3" />
-    <circle
-       style="fill:#eb811b;fill-opacity:1;stroke-width:0.509861"
-       id="path4"
-       cx="78.826157"
-       cy="79.140221"
-       r="2" />
-    <circle
-       style="fill:#eb811b;fill-opacity:1;stroke-width:0.509861"
-       id="path4-7"
-       cx="98.834663"
-       cy="44.484478"
-       r="2" />
-    <circle
-       style="fill:#eb811b;fill-opacity:1;stroke-width:0.509862"
-       id="path4-7-2"
-       cx="119.70919"
-       cy="79.640221"
-       r="2" />
+       id="path2"
+       style="fill:#eb811b;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 188.31641,27.525391 c -4.54968,0.159999 -7.85082,5.727243 -5.72657,9.777343 1.6877,4.055003 7.67912,5.267167 10.84029,2.24113 3.4096,-2.833161 2.7898,-8.955502 -1.07857,-11.088786 -1.22431,-0.677589 -2.63705,-1.007684 -4.03515,-0.929687 z" />
+    <path
+       id="path2-3"
+       style="fill:#eb811b;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 162.58594,71.294922 c -4.48379,0.137479 -7.75953,5.509173 -5.86914,9.566406 1.50066,3.842071 6.79656,5.371264 10.17269,3.065384 2.27989,-1.466983 3.447,-4.361857 2.90476,-7.007423 -0.42735,-2.625852 -2.49595,-4.93078 -5.13784,-5.441525 -0.67603,-0.162538 -1.37646,-0.220122 -2.07047,-0.182842 z" />
+    <path
+       id="path2-3-9"
+       style="fill:#eb811b;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 214.63672,71.294922 c -4.4841,0.138046 -7.76063,5.510962 -5.86719,9.568359 1.49839,3.838853 6.78255,5.36077 10.16093,3.071661 2.30695,-1.480506 3.48045,-4.419647 2.90107,-7.089555 -0.45386,-2.590823 -2.49898,-4.856919 -5.11265,-5.365547 -0.67969,-0.165214 -1.38414,-0.222208 -2.08216,-0.184918 z" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:4.23333px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Bold';fill:#23373b;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="183.38014"
+       y="24.43342"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87778px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#23373b;fill-opacity:1;stroke-width:3"
+         x="183.38014"
+         y="24.43342">AC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#23373b;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="141.78723"
+       y="94.813408"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="stroke-width:3"
+         x="141.78723"
+         y="94.813408">MARL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777px;line-height:0.9;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#23373b;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="213.91783"
+       y="94.813408"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="stroke-width:3"
+         x="213.91783"
+         y="94.813408">GNN</tspan></text>
   </g>
 </svg>

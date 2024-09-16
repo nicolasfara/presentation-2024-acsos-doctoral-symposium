@@ -173,7 +173,7 @@
     system dynamics.
   ]
 
-  // #figure(image("images/ac-gnn-marl.svg", height: 30%))
+  #figure(image("images/ac-gnn-marl.svg", height: 37%))
 ]
 
 #slide(title: "Proposed approach")[
