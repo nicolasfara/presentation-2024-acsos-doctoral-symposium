@@ -160,17 +160,17 @@
   #side-by-side(columns: (1fr, 1fr, 1fr), gutter: 2em)[
     *Aggregate Computing*
 
-    encoding the #alert[collective] \
+    encode the #alert[collective] \
     nature of the system.
   ][
     *Graph Neural Network* #fcite("DBLP:journals/tnn/WuPCLZY21")
 
-    for encoding device \
+    encode device \
     #alert[spatial relationships].
   ][
     *MARL* #fcite("DBLP:journals/corr/abs-2209-03859")
 
-    for encoding #alert[large-scale] \
+    encode #alert[large-scale] \
     system dynamics.
   ]
 
@@ -190,7 +190,7 @@
     - Difficult to determine the #alert[placement] #alert[a priori]
     - Pre-defined #alert[rules] cannot adapt to changing conditions (ECC)
 
-    #alert[MARL] and #alert[GNN] can leverage *neighbours* information to determine the best #alert[placement], and allowing the definition of #alert[new once].
+    #alert[MARL] and #alert[GNN] can leverage *neighbours* information to determine the best #alert[placement], and allowing the definition of #alert[new ones].
   ][
     #figure(image("images/offloading-surrogate.svg"))
   ]
@@ -225,7 +225,7 @@
 
 #new-section-slide("Future Work and Research Plan")
 
-#slide(title: "Future directions in 3 steps")[
+#slide(title: "Future directions in three steps")[
 
   1. #alert[Enhance] and #alert[extend] the macro-program partitioning model to accomodate *constraints* and *capabilities* fo the different components
   2. Integrate #alert[MARL] and #alert[GNN] in the pulverisation model completing the *toolchain*, and evaluate the effectiveness of the approach in scenarios like #alert[smart cities], #alert[IoT], etc.
