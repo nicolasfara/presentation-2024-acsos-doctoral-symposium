@@ -17,6 +17,7 @@
 #set quote(block: true)
 #show quote: set align(left)
 #show quote: set pad(x: 2em, y: -0.8em)
+#show quote: set text(style: "italic")
 
 #set raw(tab-size: 4)
 #show raw.where(block: true): block.with(
@@ -78,16 +79,16 @@
 #slide(title: "Aggregate computing")[
   #underline[Aggregate computing] #fcite("DBLP:journals/computer/BealPV15") as a way to *engineer* #alert[collective-adaptive systems].
 
-  #place(right, dx: -12.2em)[
+  #place(right, dx: -26.2em)[
     #line(start: (0em, 0em), end: (0em, 60%), stroke: 0.05em + rgb("#23373b"))
   ]
 
   #v(1em)
 
-  #side-by-side(columns: (2fr, auto), gutter: 2em)[
-    #figure(image("images/ac.svg"))
-  ][
+  #side-by-side(columns: (auto, 1fr), gutter: 2em)[
     #figure(image("images/channel.svg", height: 45%))
+  ][
+    #figure(image("images/ac.svg"))
   ]
 
   #v(0.3em)
@@ -97,7 +98,7 @@
 
 #slide(title: "Edge-cloud Continuum")[
   #side-by-side(columns: (2fr, auto), gutter: 2em)[
-    #quote[Aggregation of #alert[computational resources] along the data path from the *edge* to the *cloud* #fcite("DBLP:journals/access/MoreschiniPLNHT22")]
+    Aggregation of #alert[computational resources] along the data path from the *edge* to the *cloud* #fcite("DBLP:journals/access/MoreschiniPLNHT22")
 
     #v(1em)
 
